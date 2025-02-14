@@ -1,5 +1,5 @@
 syntax = "proto3";
-package = com.vickenzi.model.events
+package com.vickenzi.model.events;
 
 message UserCreatedEvent {
     string user_id = 1;
