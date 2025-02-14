@@ -1,6 +1,5 @@
 syntax = "proto3";
-
-package sharedobjectproto;
+package = com.vickenzi.model.events
 
 message UserCreatedEvent {
     string user_id = 1;
